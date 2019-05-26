@@ -19,7 +19,7 @@ app.on('window-all-closed', () => {
 });
 
 const createTray = () => {
-  tray = new Tray(path.join(__dirname, 'assets/dropTemplate.png'));
+  tray = new Tray(path.join(__dirname, 'assets/waterTemplate.png'));
   const contextMenu = Menu.buildFromTemplate([
     { label: 'Sobre', 
       click () {
