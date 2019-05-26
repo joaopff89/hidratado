@@ -1,6 +1,5 @@
 function messages (number) {
     var m = [
-        "Não esqueça de se hidratar",
         "O ideal é beber 300ml de água a cada duas horas",
         "Beba água",
         "A água ajuda a regular a temperatura corporal",
