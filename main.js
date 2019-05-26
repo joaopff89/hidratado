@@ -6,6 +6,10 @@ let tray = undefined;
 
 app.dock.hide();
 
+app.setLoginItemSettings({
+  openAtLogin: true
+});
+
 app.on('ready', () => {
   createTray();
 });
