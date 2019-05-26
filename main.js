@@ -37,7 +37,7 @@ const createTray = () => {
 const sendNotification = () => {
   let notification = new Notification({
     title: 'Se hidrate', 
-    body: (messages.get(Math.floor(Math.random() * (+5 - +0)) + +0))
+    body: (messages.get(Math.floor(Math.random() * 11)))
   });
 
   notification.show();

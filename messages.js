@@ -1,11 +1,16 @@
 function messages (number) {
     var m = [
-        "Melhor uma pedra no seu caminho do que duas no rim, beba água!",
-        "Tu é muito hidratado brother, eu me orgulho muito",
-        "Beba água!",
-        "Gente hidratada >>>",
-        "Se hidratar é bom, mas já foi ao banheiro?",
-        "Só vim te pedir pra se hidratar, valeu, tamo junto!"
+        "Não esqueça de se hidratar",
+        "O ideal é beber 300ml de água a cada duas horas",
+        "Beba água",
+        "A água ajuda a regular a temperatura corporal",
+        "A água ajuda a combater acne, estrias e celulite",
+        "A água ajuda a melhorar o funcionamento dos rins",
+        "A água ajuda a prevenir o aparecimento de pedras nos rins",
+        "A água ajuda a facilitar a digestão",
+        "A água ajuda a diminuir o inchaço",
+        "A água ajuda a melhorar a circulação sanguínea",
+        "A água ajuda a emagrecer"
     ];
 
     return m[number];
